@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+a.nav-link {
+    color: white !important;
+}
+
+.nav-item {
+    min-width: 80px;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.nav-item:hover {
+    background: grey;
+    border-radius: 10px;
+}
+
+li.nav-item.active {
+    background: grey;
+    border-radius: 10px;
+}
+
+.search-input {
+    border-radius: 20px !important;
+}
+
+.search-input:focus {
+    outline: none !important;
+    border: 1px solid transparent !important;
+    box-shadow: none !important;
+}
+
+.yellow-bg-transparent {
+    color: white;
+    text-align: center;
+    background: linear-gradient(rgba(200, 166, 87, 0.5), rgba(233, 181, 61, 0.521));
+    /* position: absolute;
+    top: 200px; */
+}
+
+.yellow-wrapper {
+    background-color: #FFAF3C;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.black-brush-bg p {
+    color: white;
+    margin: 0;
+}
+
+.inside-brush {
+    position: absolute;
+    left: 43%;
+    bottom: -50%;
+}
+
+.bottom-wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/bottom-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px 0;
+}
+
+.learn-more-top {
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+.learn-more-btn {
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+.hr-width {
+    border-top: 2px solid white;
+}
+
+.black-box {
+    background-color: black;
+    height: 5vh;
+}
+
+.brush-image {
+    width: 600px;
+}
+
+.bottom-row {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .brush-image {
+        width: 100% !important;
+    }
+    .inside-brush {
+        position: absolute;
+        left: 28%;
+        bottom: -45%;
+    }
+    .inside-brush {
+        font-size: 11px;
+    }
+}
